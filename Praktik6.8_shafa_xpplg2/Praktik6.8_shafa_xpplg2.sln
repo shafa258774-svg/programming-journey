@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Praktik6.8_shafa_xpplg2", "Praktik6.8_shafa_xpplg2\Praktik6.8_shafa_xpplg2.csproj", "{890D9D7B-C94A-49A6-AE39-298EB3531BC2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{890D9D7B-C94A-49A6-AE39-298EB3531BC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{890D9D7B-C94A-49A6-AE39-298EB3531BC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{890D9D7B-C94A-49A6-AE39-298EB3531BC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{890D9D7B-C94A-49A6-AE39-298EB3531BC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C5FEF6D5-40CE-42C9-BE9A-52A95624A543}
+	EndGlobalSection
+EndGlobal
