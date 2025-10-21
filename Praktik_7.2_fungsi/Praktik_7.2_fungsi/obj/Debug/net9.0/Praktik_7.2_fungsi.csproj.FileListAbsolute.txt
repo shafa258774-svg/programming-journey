@@ -1,0 +1,14 @@
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik_7.2_fungsi\Praktik_7.2_fungsi\bin\Debug\net9.0\Praktik_7.2_fungsi.exe
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik_7.2_fungsi\Praktik_7.2_fungsi\bin\Debug\net9.0\Praktik_7.2_fungsi.deps.json
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik_7.2_fungsi\Praktik_7.2_fungsi\bin\Debug\net9.0\Praktik_7.2_fungsi.runtimeconfig.json
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik_7.2_fungsi\Praktik_7.2_fungsi\bin\Debug\net9.0\Praktik_7.2_fungsi.dll
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik_7.2_fungsi\Praktik_7.2_fungsi\bin\Debug\net9.0\Praktik_7.2_fungsi.pdb
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik_7.2_fungsi\Praktik_7.2_fungsi\obj\Debug\net9.0\Praktik_7.2_fungsi.GeneratedMSBuildEditorConfig.editorconfig
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik_7.2_fungsi\Praktik_7.2_fungsi\obj\Debug\net9.0\Praktik_7.2_fungsi.AssemblyInfoInputs.cache
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik_7.2_fungsi\Praktik_7.2_fungsi\obj\Debug\net9.0\Praktik_7.2_fungsi.AssemblyInfo.cs
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik_7.2_fungsi\Praktik_7.2_fungsi\obj\Debug\net9.0\Praktik_7.2_fungsi.csproj.CoreCompileInputs.cache
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik_7.2_fungsi\Praktik_7.2_fungsi\obj\Debug\net9.0\Praktik_7.2_fungsi.dll
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik_7.2_fungsi\Praktik_7.2_fungsi\obj\Debug\net9.0\refint\Praktik_7.2_fungsi.dll
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik_7.2_fungsi\Praktik_7.2_fungsi\obj\Debug\net9.0\Praktik_7.2_fungsi.pdb
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik_7.2_fungsi\Praktik_7.2_fungsi\obj\Debug\net9.0\Praktik_7.2_fungsi.genruntimeconfig.cache
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik_7.2_fungsi\Praktik_7.2_fungsi\obj\Debug\net9.0\ref\Praktik_7.2_fungsi.dll
