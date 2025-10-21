@@ -1,0 +1,14 @@
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik6.3_shafa_xpplg2\Praktik6.3_shafa_xpplg2\bin\Debug\net9.0\Praktik6.3_shafa_xpplg2.exe
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik6.3_shafa_xpplg2\Praktik6.3_shafa_xpplg2\bin\Debug\net9.0\Praktik6.3_shafa_xpplg2.deps.json
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik6.3_shafa_xpplg2\Praktik6.3_shafa_xpplg2\bin\Debug\net9.0\Praktik6.3_shafa_xpplg2.runtimeconfig.json
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik6.3_shafa_xpplg2\Praktik6.3_shafa_xpplg2\bin\Debug\net9.0\Praktik6.3_shafa_xpplg2.dll
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik6.3_shafa_xpplg2\Praktik6.3_shafa_xpplg2\bin\Debug\net9.0\Praktik6.3_shafa_xpplg2.pdb
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik6.3_shafa_xpplg2\Praktik6.3_shafa_xpplg2\obj\Debug\net9.0\Praktik6.3_shafa_xpplg2.GeneratedMSBuildEditorConfig.editorconfig
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik6.3_shafa_xpplg2\Praktik6.3_shafa_xpplg2\obj\Debug\net9.0\Praktik6.3_shafa_xpplg2.AssemblyInfoInputs.cache
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik6.3_shafa_xpplg2\Praktik6.3_shafa_xpplg2\obj\Debug\net9.0\Praktik6.3_shafa_xpplg2.AssemblyInfo.cs
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik6.3_shafa_xpplg2\Praktik6.3_shafa_xpplg2\obj\Debug\net9.0\Praktik6.3_shafa_xpplg2.csproj.CoreCompileInputs.cache
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik6.3_shafa_xpplg2\Praktik6.3_shafa_xpplg2\obj\Debug\net9.0\Praktik6.3_shafa_xpplg2.dll
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik6.3_shafa_xpplg2\Praktik6.3_shafa_xpplg2\obj\Debug\net9.0\refint\Praktik6.3_shafa_xpplg2.dll
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik6.3_shafa_xpplg2\Praktik6.3_shafa_xpplg2\obj\Debug\net9.0\Praktik6.3_shafa_xpplg2.pdb
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik6.3_shafa_xpplg2\Praktik6.3_shafa_xpplg2\obj\Debug\net9.0\Praktik6.3_shafa_xpplg2.genruntimeconfig.cache
+C:\SHAFA AISYAH KARIM_X PPLG 2\Praktik6.3_shafa_xpplg2\Praktik6.3_shafa_xpplg2\obj\Debug\net9.0\ref\Praktik6.3_shafa_xpplg2.dll
