@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v9.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v9.0": {
+      "Praktik6.5_shafa_xpplg/1.0.0": {
+        "runtime": {
+          "Praktik6.5_shafa_xpplg.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Praktik6.5_shafa_xpplg/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
