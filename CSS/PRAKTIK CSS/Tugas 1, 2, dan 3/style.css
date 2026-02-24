@@ -1,0 +1,29 @@
+body {
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            background-color:rgb(254, 254, 235);
+            margin: 25px;
+            font-style: italic;
+        }
+        h1 {
+            color:rgb(4, 55, 9);
+            text-align: right;
+        }
+        h2 {
+            color:rgb(4, 55, 9);
+            text-align: center;
+        }
+        p { 
+            color: rgb(4, 55, 9);
+            line-height: 1.6;
+            text-align: justify;
+            margin: 30px;
+        }
+          .highlight {
+            background-color:rgb(170, 126, 106);
+            font-weight: bold;
+        }
+        video {
+            display: block; 
+            margin: 20px;
+            align-items: center;
+        }
