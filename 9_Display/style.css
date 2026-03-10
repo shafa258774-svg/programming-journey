@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    background-color: #f4f4f4;
+}
+
+.navbar {
+    background-color:rgb(136, 188, 234); 
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline-block; 
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 18px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.navbar ul li a:hover {
+    background-color: white;
+    color: rgb(136, 188, 234);
+}
+
+home {
+    text-align: center;
+    padding: 50px 20px;
+}
+home p {
+    max-width: 600px;
+    margin: auto;
+    font-size: 20px;
+}
