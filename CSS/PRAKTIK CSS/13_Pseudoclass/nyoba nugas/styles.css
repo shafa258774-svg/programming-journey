@@ -1,0 +1,208 @@
+h2{
+    color: #708993;
+    font-family: monospace;
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+    text-transform: uppercase;
+
+}
+p{
+    font-family: monospace;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    font-family: monospace;
+}
+nav ul {
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+ul{
+    background: #708993;
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+li{
+    color: white;
+    background: #708993;
+    display: block;
+    float: left;
+    padding: 1rem;
+    position: relative;
+    text-decoration: none;
+    transition-duration: 0.5s;
+    justify-content: center;
+    
+}
+li a{
+    color: white;
+}
+li:hover,
+li:focus{
+    cursor: pointer;
+    background: #708993;
+
+}
+li:focus-within a{
+    outline: none;
+}
+ul li ul{
+    background: #708993;
+    visibility: hidden;
+    opacity: 0;
+    min-width: 5rem;
+    position: absolute;
+    transition: alla 0.5s ease;
+    margin-top: 1rem;
+    left: 0;
+    display: none;
+}
+ul li:hover ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus{
+    visibility: visible;
+    opacity: 1;
+    display: block;
+}
+ul li ul li{
+    clear: both;
+    width: 100%;
+}
+body{
+background-color: #19183B;
+background-image: url(Quality\ Restoration-Ultra\ HD-Gradiente\ Suave.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+/* Gallery */
+.gallery{
+text-align:center;
+margin-top:40px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+transition: transform 0.3s;
+}
+
+.gallery img:hover{
+transform: scale(1.1);
+}
+
+.gallery-item{
+display:inline-block;
+margin:20px;
+padding:10px;
+background:#A1C2BD;
+border-radius:10px;
+box-shadow:0px 0px 10px rgba(0,0,0,0.2);
+}
+.gallery-item p{
+color:#19183B;
+font-weight:bold;
+}
+.gallery img{
+width:200px;
+height:200px;
+border-radius:10px;
+transition: transform 0.3s;
+}
+button{
+padding: 10px 20px;
+background: #2b1a61;
+color: white;
+border: none;
+cursor: pointer;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+transition: transform 0.3s;
+margin-bottom: 10px;
+}
+
+button:hover{
+transform: scale(1.1);
+}
+
+
+/*HOME*/
+.banner{
+background:#A1C2BD;
+text-align:center;
+padding: 30px;
+font-family: monospace;
+}
+
+.banner h1{
+color:#19183B;
+}
+
+.btn-belanja{
+background:#19183B;
+color:white;
+padding:10px 20px;
+border:none;
+border-radius:10px;
+cursor:pointer;
+}
+
+/*About*/
+.about{
+padding:40px;
+text-align:center;
+}
+
+.about h1{
+color:#19183B;
+}
+
+.about-box{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+margin-top:20px;
+}
+
+.about-item{
+background:#698581;
+margin:15px;
+padding:20px;
+border-radius: 10px;
+width:200px;
+box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.about-item h3{
+color:#37365b;
+}
+
+/*Contacts*/
+.contact{
+text-align:center;
+padding:10px;
+}
+
+.contact-box{
+display:flex;
+justify-content:center;
+flex-wrap:wrap;
+margin-top:20px;
+}
+
+.contact-item{
+background:#A1C2BD;
+margin:15px;
+padding:70px;
+border-radius: 10px;
+width:200px;
+box-shadow:0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.contact-item h3{
+color:#19183B;
+}
