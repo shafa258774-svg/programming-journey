@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Index 3</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            position: absolute;
+        }
+        .satu   {
+            z-index: 1;
+        }
+        .dua    {
+            top: 100px;
+            left: 100px;
+            z-index: 2;
+        }
+        .tiga   {
+            top: 200px;
+            left: 200px;
+            z-index: 3;
+        }
+        img {
+            width: 200px;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.639);
+            transition: transform 0.3s;
+        }
+        img:hover{
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="satu">
+        <img src="speed^^.jpg" alt="">
+    </div>
+    <div class="dua">
+        <img src="speed^^.jpg" alt="">
+    </div>
+    <div class="tiga">
+        <img src="speed^^.jpg" alt="">
+    </div>
+</body>
+</html>

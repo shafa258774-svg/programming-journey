@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tugas Overflow</title>
+
+<style>
+body{
+    font-family: Arial;
+    margin: 20px;
+}
+
+h1{
+    text-align: center;
+}
+
+/* Navigasi */
+nav a{
+    display: inline-block;
+    margin: 10px;
+    padding: 8px 15px;
+    background-color: lightblue;
+    text-decoration: none;
+    color: black;
+}
+
+/* Artikel */
+article{
+    width: 700px;   /* memanjang ke samping */
+    height: 100px;
+    border: 2px solid black;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.visible{
+    overflow: visible;
+}
+
+.hidden{
+    overflow: hidden;
+}
+
+.scroll{
+    overflow: scroll;
+}
+
+.auto{
+    overflow: auto;
+}
+
+</style>
+</head>
+
+<body>
+
+<h1>Website Produk Teknologi</h1>
+
+<nav>
+<a href="#">Home</a>
+<a href="#">About</a>
+<a href="#">Product</a>
+<a href="#">Contact</a>
+</nav>
+
+<h2>Produk 1</h2>
+<article class="visible">
+Laptop gaming adalah perangkat komputer yang dirancang khusus untuk bermain game dengan performa tinggi. Laptop ini biasanya memiliki prosesor cepat, kartu grafis kuat, serta RAM besar. Dengan spesifikasi tersebut, pengguna dapat memainkan berbagai game modern dengan lancar dan nyaman tanpa gangguan.
+</article>
+
+<h2>Produk 2</h2>
+<article class="hidden">
+Smartphone merupakan alat komunikasi modern yang memiliki banyak fitur seperti kamera, internet, aplikasi media sosial, dan game. Smartphone sering digunakan oleh pelajar untuk belajar online, mencari informasi di internet, dan berkomunikasi dengan teman serta keluarga setiap hari.
+</article>
+
+<h2>Produk 3</h2>
+<article class="scroll">
+Headphone adalah perangkat audio yang digunakan untuk mendengarkan suara secara pribadi. Banyak orang menggunakan headphone ketika mendengarkan musik, menonton film, atau bermain game agar suara terdengar lebih jelas dan tidak mengganggu orang lain di sekitar.
+</article>
+
+<h2>Produk 4</h2>
+<article class="auto">
+Smartwatch adalah jam tangan pintar yang dapat terhubung dengan smartphone. Perangkat ini dapat menampilkan notifikasi pesan, panggilan masuk, serta memantau kesehatan seperti detak jantung dan jumlah langkah pengguna setiap hari.
+</article>
+
+</body>
+</html>
