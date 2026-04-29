@@ -1,0 +1,136 @@
+body{
+font-family: Arial, Helvetica, sans-serif;
+margin: 0;
+padding: 0;
+background-color: #f4f4f4;
+}
+
+header{
+background-color: #111;
+color: white;
+padding: 20px;
+text-align: center;
+}
+
+nav{
+background-color: #333;
+padding: 10px;
+text-align: center;
+}
+
+nav ul{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
+nav ul li{
+display: inline;
+margin: 0 15px;
+}
+
+nav ul li a{
+color: white;
+text-decoration: none;
+font-weight: bold;
+}
+
+.hero{
+background: #222;
+color: white;
+text-align: center;
+padding: 50px;
+}
+
+.hero button{
+padding: 10px 20px;
+background: #ff3c00;
+color: white;
+border: none;
+cursor: pointer;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+transition: transform 0.3s;
+}
+
+button:hover{
+transform: scale(1.1);
+}
+
+.container{
+padding: 20px;
+padding-bottom: 30px;
+text-align: center;
+}
+
+.produk{
+display: flex;
+justify-content: center;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+.card{
+background: white;
+padding: 15px;
+width: 200px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+border-radius: 10px;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.card img{
+width: 100%;
+}
+
+.card button{
+background: #ff3c00;
+color: white;
+border: none;
+padding: 8px 15px;
+cursor: pointer;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+transition: transform 0.3s;
+}
+
+button:hover{
+transform: scale(1.1);
+}
+
+
+footer{
+background: #111;
+color: white;
+text-align: center;
+padding: 15px;
+margin-top: 20px;
+}
+.keunggulan{
+background: #222;
+color: white;
+padding: 40px;
+text-align: center;
+}
+
+.fitur{
+display: flex;
+justify-content: center;
+gap: 30px;
+flex-wrap: wrap;
+margin-top: 20px;
+}
+
+.fitur div{
+background: #333;
+padding: 20px;
+border-radius: 10px;
+width: 200px;
+}
+.container p{
+line-height: 1.6;
+}
+
+.container ul{
+text-align: left;
+max-width: 600px;
+margin: auto;
+}
