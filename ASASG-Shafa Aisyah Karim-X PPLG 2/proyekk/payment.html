@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Pembayaran - FigureStore</title>
+    <link rel="stylesheet" href="styleproyekkk.css">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1 class="logo">⚡ FigureStore</h1>
+            <ul>
+                <li><a href="home.html">Kembali Belanja</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="pembayaran">
+        <h2 class="judul">Halaman <span>Pembayaran</span></h2>
+
+        <div class="checkout-container">
+            <!-- Kiri: Form Data Pembeli -->
+            <div class="checkout-form">
+                <h3>Data Pengiriman</h3>
+                <div class="form-group">
+                    <label>Nama Lengkap</label>
+                    <input type="text" id="input-nama" placeholder="Contoh: Shapa Imup">
+                </div>
+                <div class="form-group">
+                    <label>Nomor WhatsApp</label>
+                    <input type="text" id="input-wa" placeholder="Contoh: 081234567890">
+                </div>
+                <div class="form-group">
+                    <label>Alamat Lengkap</label>
+                    <textarea id="input-alamat" rows="4" placeholder="Jl. Contoh No. 123, Jakarta"></textarea>
+                </div>
+
+                <h3>Metode Pembayaran</h3>
+                <div class="form-group">
+                    <select id="input-bayar">
+                        <option value="">Pilih Metode Pembayaran</option> <!-- Tambahin value="" di sini -->
+                        <option value="BCA">Transfer Bank BCA</option>
+                        <option value="BNI">Transfer Bank BNI</option>
+                        <option value="GoPay">GoPay</option>
+                        <option value="OVO">OVO</option>
+                        <option value="DANA">DANA</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Kanan: Ringkasan Pesanan -->
+            <div class="checkout-summary">
+                <h3>Ringkasan Pesanan</h3>
+
+                <!-- Daftar barang akan dimasukkin sama JavaScript di sini -->
+                <div id="checkout-items" class="checkout-items">
+                </div>
+
+                <div class="checkout-total">
+                    <h4>Total Bayar: <span id="checkout-total-harga" class="harga-total">Rp 0</span></h4>
+                </div>
+
+                <button class="tombol-bayar" onclick="prosesPembayaran()">Bayar Sekarang 💸</button>
+            </div>
+
+        </div>
+    </section>
+
+    <div id="toast-container"></div>
+
+    <script src="checkout.js"></script>
+</body>
+
+</html>

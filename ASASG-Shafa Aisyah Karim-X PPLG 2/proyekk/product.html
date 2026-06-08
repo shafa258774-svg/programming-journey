@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Action Figure Store</title>
+    <link rel="stylesheet" href="styleproyekkk.css">
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <h1 class="logo">⚡ FigureStore</h1>
+            <ul>
+                <li><a href="home.html">Beranda</a></li>
+                <li><a href="product.html">Produk</a></li>
+                <li><a href="contact.html">Kontak</a></li>
+                <li><button class="tombol-cart" onclick="bukaKeranjang()"> 🛒 <span id="cart-count"
+                            class="cart-badge">0</span></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="hero">
+        <div class="hero-teks">
+            <h2>Action Figure Store</h2>
+            <p>Temukan koleksi action figure terbaru dengan kualitas terbaik.</p>
+            <a href="#produk" class="tombol">Lihat Produk ➜</a>
+        </div>
+
+        <div class="hero-gambar">
+            <img src="gojo wp.jpg" alt="Hero Figure">
+        </div>
+    </section>
+
+    <section id="produk">
+        <h2 class="judul">Produk <span>Terbaru</span></h2>
+        <p class="sub-judul">Koleksi action figure anime terbaru pilihan untukmu</p>
+
+        <div class="search-box">
+            <input type="text" id="cari" placeholder="Cari figure kesukaanmu... 🔍">
+        </div>
+
+        <div class="grid-produk">
+            <div class="kartu">
+                <img src="gojo 1.jpg" alt="Gojo Satoru">
+                <div class="kartu-isi">
+                    <p class="kategori">Jujutsu Kaisen</p>
+                    <h3>Gojo Satoru</h3>
+                    <p class="rating">⭐⭐⭐⭐⭐ 5</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp3.500.000</span>
+                        <button class="tombol-kecil"
+                            onclick="bukaDetail('Gojo Satoru', 'Rp3.500.000', 'gojo 1.jpg')">Lihat Detail</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="geto 2.jpg" alt="Geto Suguru">
+                <div class="kartu-isi">
+                    <p class="kategori">Jujutsu Kaisen</p>
+                    <h3>Geto Suguru</h3>
+                    <p class="rating">⭐⭐⭐⭐⭐ 4.9</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp4.750.000</span>
+                        <button class="tombol-kecil"
+                            onclick="bukaDetail('Geto Suguru', 'Rp4.750.000', 'geto 2.jpg')">Lihat Detail</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="mikasa 1.jpg" alt="Mikasa Ackerman">
+                <div class="kartu-isi">
+                    <p class="kategori">Attack on Titan</p>
+                    <h3>Mikasa Ackerman</h3>
+                    <p class="rating">⭐⭐⭐⭐⭐ 4.9</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp3.700.000</span>
+                        <button class="tombol-kecil"
+                            onclick="bukaDetail('Mikasa Ackerman', 'Rp3.700.000', 'mikasa 1.jpg')">Lihat Detail</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="Makima figurine.jpg" alt="Makima">
+                <div class="kartu-isi">
+                    <p class="kategori">Chainsaw Man</p>
+                    <h3>Makima</h3>
+                    <p class="rating">⭐⭐⭐⭐⭐ 4.8</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp3.430.000</span>
+                        <button class="tombol-kecil"
+                            onclick="bukaDetail('Makima', 'Rp3.430.000', 'Makima figurine.jpg')">Lihat Detail</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="eren 1.jpg" alt="Eren Yeager">
+                <div class="kartu-isi">
+                    <p class="kategori">Attack on Titan</p>
+                    <h3>Eren Yeager</h3>
+                    <p class="rating">⭐⭐⭐⭐⭐ 4.8</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp4.900.000</span>
+                        <button class="tombol-kecil"
+                            onclick="bukaDetail('Eren Yeager', 'Rp4.900.000', 'eren 1.jpg')">Lihat Detail</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="Denji Chainsaw Man Anime Action Figure.jpg" alt="Denji Chainsaw Man">
+                <div class="kartu-isi">
+                    <p class="kategori">Chainsaw Man</p>
+                    <h3>Denji</h3>
+                    <p class="rating">⭐⭐⭐⭐⭐ 4.9</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp5.390.000</span>
+                        <button class="tombol-kecil"
+                            onclick="bukaDetail('Denji', 'Rp5.390.000', 'Denji Chainsaw Man Anime Action Figure.jpg')">Lihat
+                            Detail</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="nonchalant king nagi.jpg" alt="Nonchalant King Nagi">
+                <div class="kartu-isi">
+                    <p class="kategori">Blue Lock</p>
+                    <h3>Nagi Seishiro</h3>
+                    <p class="rating">⭐⭐⭐⭐⭐ 4.7</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp5.300.000</span>
+                        <button class="tombol-kecil"
+                            onclick="bukaDetail('Nagi Seishiro', 'Rp5.300.000', 'nonchalant king nagi.jpg')">Lihat
+                            Detail</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="Bsd Chuuya figure 1 ð__·ð___.jpg" alt="Bsd Chuuya">
+                <div class="kartu-isi">
+                    <p class="kategori">Bungo Stray Dogs</p>
+                    <h3>Chuuya Otonashi</h3>
+                    <p class="rating">⭐⭐⭐⭐⭐ 4.6</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp5.780.000</span>
+                        <button class="tombol-kecil"
+                            onclick="bukaDetail('Chuuya Otonashi', 'Rp5.780.000', 'Bsd Chuuya figure 1 ð__·ð___.jpg')">Lihat
+                            Detail</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="Ai Hoshino.jpg" alt="Ai Hoshino">
+                <div class="kartu-isi">
+                    <p class="kategori">Oshi no Ko</p>
+                    <h3>Ai Hoshino</h3>
+                    <p class="rating">⭐⭐⭐⭐⭐ 4.7</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp6.300.000</span>
+                        <button class="tombol-kecil"
+                            onclick="bukaDetail('Ai Hoshino', 'Rp6.300.000', 'Ai Hoshino.jpg')">Lihat Detail</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="hatsune miku 1_7 aurora garage kit figure.jpg" alt="Hatsune Miku">
+                <div class="kartu-isi">
+                    <p class="kategori"></p>
+                    <h3>Hatsune Miku</h3>
+                    <p class="rating">⭐⭐⭐⭐⭐ 4.6</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp7.300.000</span>
+                        <button class="tombol-kecil"
+                            onclick="bukaDetail('Hatsune Miku', 'Rp7.300.000', 'hatsune miku 1_7 aurora garage kit figure.jpg')">Lihat
+                            Detail</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="futaba sakura.jpg" alt="Futaba Sakura">
+                <div class="kartu-isi">
+                    <p class="kategori">Persona 5</p>
+                    <h3>Futaba Sakura</h3>
+                    <p class="rating">⭐⭐⭐⭐⭐ 4.7</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp7.780.000</span>
+                        <button class="tombol-kecil"
+                            onclick="bukaDetail('Futaba Sakura', 'Rp7.780.000', 'futaba sakura.jpg')">Lihat
+                            Detail</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="Eren 2.jpg" alt="Eren Yeager">
+                <div class="kartu-isi">
+                    <p class="kategori">Attack on Titan</p>
+                    <h3>Eren Yeager</h3>
+                    <p class="rating">⭐⭐⭐⭐⭐ 4.5</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp5.720.000</span>
+                        <button class="tombol-kecil"
+                            onclick="bukaDetail('Eren Yeager', 'Rp5.720.000', 'Eren 2.jpg')">Lihat
+                            Detail</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="Action Figure Sukuna.jpg" alt="Sukuna">
+                <div class="kartu-isi">
+                    <p class="kategori">Jujutsu Kaisen</p>
+                    <h3>Ryomen Sukuna</h3>
+                    <p class="rating">⭐⭐⭐⭐ 4</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp3.720.000</span>
+                        <button class="tombol-kecil"
+                            onclick="bukaDetail('Sukuna', 'Rp3.720.000', 'Action Figure Sukuna.jpg')">Lihat
+                            Detail</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="Action Figure Demon Slayer Giyu Tomioka.jpg" alt="Giyu Tomioka">
+                <div class="kartu-isi">
+                    <p class="kategori">Demon Slayer</p>
+                    <h3>Giyu Tomioka</h3>
+                    <p class="rating">⭐⭐⭐⭐⭐ 4.5</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp4.120.000</span>
+                        <button class="tombol-kecil"
+                            onclick="bukaDetail('Giyu Tomioka', 'Rp4.120.000', 'Action Figure Demon Slayer Giyu Tomioka.jpg.jpg')">Lihat
+                            Detail</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="ichigo.jpg" alt="Ichigo Kurosaki">
+                <div class="kartu-isi">
+                    <p class="kategori">Bleach</p>
+                    <h3>Ichigo Kurosaki</h3>
+                    <p class="rating">⭐⭐⭐⭐⭐ 4.5</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp4.610.000</span>
+                        <button class="tombol-kecil"
+                            onclick="bukaDetail('Ichigo Kurosaki', 'Rp4.610.000', 'ichigo.jpg')">Lihat
+                            Detail</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="gojo af.jpg" alt="Gojo Satoru">
+                <div class="kartu-isi">
+                    <p class="kategori">Jujutsu Kaisen</p>
+                    <h3>Gojo Satoru</h3>
+                    <p class="rating">⭐⭐⭐⭐⭐ 4.9</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp6.050.000</span>
+                        <button class="tombol-kecil"
+                            onclick="bukaDetail('Gojo Satoru', 'Rp6.050.000', 'gojo af.jpg')">Lihat Detail</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="geto af 2.jpg" alt="Geto Suguru">
+                <div class="kartu-isi">
+                    <p class="kategori">Jujutsu Kaisen</p>
+                    <h3>Geto Suguru</h3>
+                    <p class="rating">⭐⭐⭐⭐⭐ 4.7</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp3.130.000</span>
+                        <button class="tombol-kecil"
+                            onclick="bukaDetail('Geto Suguru', 'Rp3.130.000', 'geto af 2.jpg')">Lihat Detail</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="choso af.jpg" alt="Choso Kamo">
+                <div class="kartu-isi">
+                    <p class="kategori">Jujutsu Kaisen</p>
+                    <h3>Choso Kamo</h3>
+                    <p class="rating">⭐⭐⭐⭐⭐ 4.8</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp4.910.000</span>
+                        <button class="tombol-kecil"
+                            onclick="bukaDetail('Choso Kamo', 'Rp4.910.000', 'choso af.jpg')">Lihat Detail</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="mikasa af.jpg" alt="Mikasa Ackerman">
+                <div class="kartu-isi">
+                    <p class="kategori">Attack on Titan</p>
+                    <h3>Mikasa Ackerman</h3>
+                    <p class="rating">⭐⭐⭐⭐⭐ 4.8</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp2.500.000</span>
+                        <button class="tombol-kecil"
+                            onclick="bukaDetail('Mikasa Ackerman', 'Rp2.500.000', 'mikasa af.jpg')">Lihat Detail</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="levi ackerman.jpg" alt="Levi Ackerman">
+                <div class="kartu-isi">
+                    <p class="kategori">Attack on Titan</p>
+                    <h3>Levi Ackerman</h3>
+                    <p class="rating">⭐⭐⭐⭐⭐ 4.9</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp2.590.000</span>
+                        <button class="tombol-kecil"
+                            onclick="bukaDetail('Levi Ackerman', 'Rp2.590.000', 'levi ackerman.jpg')">Lihat Detail</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="cheval grand.jpg" alt="Cheval Grand">
+                <div class="kartu-isi">
+                    <p class="kategori">Umamusume</p>
+                    <h3>Cheval Grand</h3>
+                    <p class="rating">⭐⭐⭐⭐⭐ 4.7</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp3.870.000</span>
+                        <button class="tombol-kecil"
+                            onclick="bukaDetail('Cheval Grand', 'Rp3.870.000', 'cheval grand.jpg')">Lihat Detail</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="alya.jpg" alt="alya">
+                <div class="kartu-isi">
+                    <p class="kategori">Alya Sometimes Hides Her Feelings in Russian</p>
+                    <h3>Alya (Alisa Mikhailovna Kujou)</h3>
+                    <p class="rating">⭐⭐⭐⭐⭐ 4.6</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp2.670.000</span>
+                        <button class="tombol-kecil" onclick="bukaDetail('Alya', 'Rp2.670.000', 'alya.jpg')">Lihat Detail</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="Death Note - Ryuk.jpg" alt="Death Note - Ryuk">
+                <div class="kartu-isi">
+                    <p class="kategori">Death Note</p>
+                    <h3>Ryuk Shikigami</h3>
+                    <p class="rating">⭐⭐⭐⭐⭐ 4.8</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp3.130.000</span>
+                        <button class="tombol-kecil" onclick="bukaDetail('Death Note - Ryuk', 'Rp3.130.000', 'Death Note - Ryuk.jpg')">Lihat Detail</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="kartu">
+                <img src="isagi.jpg" alt="Isagi Yoichi">
+                <div class="kartu-isi">
+                    <p class="kategori">BLue Lock</p>
+                    <h3>Isagi Yoichi</h3>
+                    <p class="rating">⭐⭐⭐⭐⭐ 4.5</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp3.960.000</span>
+                        <button class="tombol-kecil" onclick="bukaDetail('Isagi Yoichi', 'Rp3.960.000', 'isagi.jpg')">Lihat Detail</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="download (38).jpg" alt="Nakano Miku">
+                <div class="kartu-isi">
+                    <p class="kategori">Gotobun no Hanayome</p>
+                    <h3>Nakano Miku</h3>
+                    <p class="rating">⭐⭐⭐⭐⭐ 4.9</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp3.935.000</span>
+                        <button class="tombol-kecil" onclick="bukaDetail('Nakano Miku', 'Rp3.935.000', 'download (38).jpg')">Lihat Detail</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="download (37).jpg" alt="Albedo">
+                <div class="kartu-isi">
+                    <p class="kategori">Overlord</p>
+                    <h3>Albedo</h3>
+                    <p class="rating">⭐⭐⭐⭐⭐ 4.7</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp3.960.000</span>
+                        <button class="tombol-kecil" onclick="bukaDetail('Albedo', 'Rp3.960.000', 'download (37).jpg')">Lihat Detail</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="kartu">
+                <img src="Light Yagami - Death Note - 1_6 Scale Figure - 1_6.jpg" alt="Light Yagami">
+                <div class="kartu-isi">
+                    <p class="kategori">Death Note</p>
+                    <h3>Light Yagami</h3>
+                    <p class="rating">⭐⭐⭐⭐⭐ 4.6</p>
+                    <div class="kartu-bawah">
+                        <span class="harga">Rp3.210.000</span>
+                        <button class="tombol-kecil" onclick="bukaDetail('Light Yagami', 'Rp3.210.000', 'Light Yagami - Death Note - 1_6 Scale Figure - 1_6.jpg')">Lihat Detail</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="kontak">
+        <div class="footer-isi">
+            <div class="footer-kolom">
+                <h4>⚡ FigureStore</h4>
+                <p>Toko action figure premium terpercaya di Indonesia.</p>
+            </div>
+            <div class="footer-kolom">
+                <h4>Navigasi</h4>
+                <ul>
+                    <li><a href="home.html">Beranda</a></li>
+                    <li><a href="product.html">Produk</a></li>
+                    <li><a href="contact.html">Kontak</a></li>
+                </ul>
+            </div>
+            <div class="footer-kolom">
+                <h4>Kontak</h4>
+                <p>✉️ hello@figurestore.id</p>
+                <p>📞 +62 812-3456-7890</p>
+            </div>
+        </div>
+        <p class="copyright">© 2025 FigureStore. All rights reserved.</p>
+    </footer>
+
+    <div id="modal" class="modal-overlay" onclick="tutupModalLuar(event)">
+        <div class="modal-konten">
+            <button class="tombol-tutup" onclick="tutupModal()">&times;</button>
+            <div class="modal-atas">
+                <img id="modal-gambar" src="" alt="Detail Produk">
+                <div class="modal-info">
+                    <h2 id="modal-nama">Nama Produk</h2>
+                    <p id="modal-harga" class="modal-harga">Rp 000.000</p>
+                    <p class="modal-deskripsi">Ini adalah action figure premium dengan detail lukisan dan ketahanan cat
+                        yang sangat bagus. Cocok buat dikoleksi atau dikasih hadiah ke teman!</p>
+                    <button class="tombol-beli-modal" onclick="tambahKeKeranjang()">🛒 Tambah ke Keranjang</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ========== SIDEBAR KERANJANG ========== -->
+    <div id="cart-sidebar" class="cart-overlay" onclick="tutupKeranjangLuar(event)">
+        <div class="cart-box">
+            <div class="cart-header">
+                <h3>🛒 Keranjang Belanja</h3>
+                <button class="tombol-tutup" onclick="tutupKeranjang()">&times;</button>
+            </div>
+
+            <div id="cart-items" class="cart-items">
+            </div>
+
+            <div class="cart-footer">
+                <h4>Total: <span id="cart-total" class="harga-total">Rp 0</span></h4>
+                <button class="tombol-checkout" onclick="goToCheckout()">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+    <div id="toast-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</body>
+
+</html>
